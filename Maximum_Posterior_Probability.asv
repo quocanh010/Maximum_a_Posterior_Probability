@@ -54,17 +54,7 @@ mun_1_BG = reshape(sigma0(1,:,:),64,64) * inv(reshape(sigma0(1,:,:),64,64) + (1/
 mun_1_CT = reshape(sigma0(1,:,:),64,64) * inv(reshape(sigma0(1,:,:),64,64) + (1/(size(D1_CT,1))) *  cov_D1_CT)  * me_1_CT' + (1/size(D1_CT,1)) * cov_D1_CT * inv(reshape(sigma0(1,:,:),64,64) + (1/(size(D1_CT,1))) * cov_D1_CT) * Prior_1_m0_CT';
 
 %Calcualte Cov_n
-cov_n_1 = 7  
-
- 
- 
- 
-
- 
- 
-
- 
-
+cov_n_1 = 
 
 % % Calculating P_Y_g_X
 % img = imread('cheetah.bmp');
